@@ -1,0 +1,301 @@
+CIDADE,ESTADO,LAVANDERIA,PERFIL,UNIDADE DE ATENDIMENTO,PREÇO A PARTIR DE,PREÇO ANUNCIADO,FRETE A PARTIR DE ,INSTALAÇÃO,PEDIDO MÍNIMO,POPULAÇÃO,STATUS,DDD,OBSERVAÇÕES
+Abadia de Goiás,GO,,,Goiânia/GO,"R$25,00","R$25,00","R$0,00",,,8.958,fazer parceria,62,
+Águas da Prata,SP,L01,,Poços de Caldas/MG,"R$29,00","R$29,00",R$2/km,,,7.300,fazer parceria,35,
+Almirante Tamandaré,PR,,P06,Colombo/PR,"R$55,00","R$62,00","R$0,00","R$0,00","0,00",120.041,inativa,41,
+Almirante Tamandaré,PR,,P06,Piraquara/PR,"R$50,00","R$50,00","R$0,00","R$0,00","R$25,00",120.041,inativa,41,
+Altair,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,4.186,pausado,17,"Taxa para tapete molhado: R$20,00"
+Aparecida de Goiânia,GO,L01,P09,Goiânia/GO,"R$40,00","R$40,00","R$25,00","R$0,00",perguntar,590.146,inativa,62,
+Araquari,SC,,,,,,,,,39.524,fazer parceria,47,
+Araranguá,SC,L01,P01,Criciúma/SC,"R$42,00","R$47,00","R$40,00","R$0,00","R$50,00",68.867,ativa,48,
+Araruna,PR,,,Cianorte/PR,"R$25,00","R$25,00","R$15,00",,,14.000,fazer parceria,44,
+Araucária,PR,,P06,Piraquara/PR,"R$58,00","R$58,00","R$0,00","R$0,00","R$25,00",146.214,inativa,41,
+Araucária,PR,,P06,Colombo/PR,"R$55,00","R$62,00","R$0,00","R$0,00","0,00",146.214,inativa,41,
+Araucária,PR,L01,P06,Araucária/PR,"R$38,00","R$43,00","R$0,00","R$0,00","0,00",146.214,ativa,41,
+Arujá,SP,L01,P07,São Paulo/SP (Leste),"R$27,00","R$39,00","R$45,00","R$12,00","R$50,00",91.157,ativa,11,
+Bady Bassitt,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,17.761,pausado,17,"Taxa para tapete molhado: R$20,00"
+Balneário Camboriú,SC,,P02,Itajaí/SC,"R$43,00","R$43,00","R$0,00","R$0,00","R$50,00",145.796,pausado,47,
+Balneário Camboriú,SC,,P01,Tijucas/SC,"R$52,00","R$52,00","R$92,00","R$0,00","R$156,00",145.796,pausado,47,
+Balneário Piçarras,SC,,P02,Itajaí/SC,"R$43,00","R$43,00","R$0,00","R$0,00","R$50,00",23.147,pausado,47,
+Balneário Rincão,SC,L01,P01,Criciúma/SC,"R$42,00","R$47,00","R$31,00","R$0,00","R$50,00",13.129,ativa,48,
+Bálsamo,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,9.139,pausado,17,"Taxa para tapete molhado: R$20,00"
+Barra Velha,SC,,,,,,,,,30.539,fazer parceria,47,
+Barroso,MG,L01,P01,São João Del Rei/MG,"R$36,00","R$40,00","R$70,00","R$0,00","R$0,00",20.897,ativa,32,
+Barueri,SP,L02,"P08, P10, P16",São Paulo/SP (Oeste),"R$27,00","R$39,00","R$48,00","R$12,00","R$50,00",279.704,ativa,11,
+Barueri,SP,L03,"P08, P10, P16",Osasco/SP,"R$50,00","R$56,00","R$0,00","R$0,00",perguntar,279.704,ativa,11,
+Barueri,SP,L01,"P08, P10, P16",Barueri/SP,"R$26,00","R$35,00","A partir de 8km do CEP 06447-190, acrescentar R$3,00 no m²","R$0,00",perguntar,279.704,ativa,11,
+Belo Horizonte,MG,L01,"P01, P09, P13",Belo Horizonte/MG,"R$38,00","R$43,00","R$0,00","R$0,00","R$0,00",2.722.000,ativa,31,
+Bertioga,SP,L01,P05,São Paulo/SP (ABCDM e Litoral),"R$27,00","R$39,00","R$80,00","R$12,00","R$50,00",64.723,ativa,13,Acima de 2 clientes
+Biguaçu,SC,,P01,Tijucas/SC,"R$52,00","R$52,00","R$98,00","R$0,00","R$156,00",70.471,pausado,48,
+Blumenau,SC,L01,P02,Blumenau/SC,"R$58,00","R$65,00","R$0,00","R$0,00","R$150,00",361.855,ativa,47,
+Bombinhas,SC,L02,P01,Tijucas/SC,"R$52,00","R$58,00","R$69,00","R$0,00","R$156,00",14.293,ativa,47,
+Bombinhas,SC,L01,P01,Florianópolis/SC,"R$60,00","R$67,00","R$0,00","R$0,00",perguntar,14.293,ativa,47,
+Botelhos,MG,L01,,Poços de Caldas/MG,"R$29,00","R$29,00",R$2/km,,,14.927,fazer parceria,35,
+Brasília,DF,L01,P09,Brasília/DF,"R$36,00","R$36,00","R$12,00","R$0,00",perguntar,3.094.325,fazer parceria,61,"Águas Claras, Asa Sul, Guará, Setor Sudoeste, Taguatinga, Vicente Pires"
+Brasília,DF,L01,P09,Brasília/DF,"R$36,00","R$36,00","R$16,00","R$0,00",perguntar,3.094.325,fazer parceria,61,Ceilândia
+Brasília,DF,L01,P09,Brasília/DF,"R$36,00","R$36,00","R$18,00","R$0,00",perguntar,3.094.325,fazer parceria,61,"Asa Norte, Lago Sul, Núcleo Bandeirante, Riacho Fundo, Samambaia Sul"
+Brusque,SC,,,,,,,,,137.689,fazer parceria,47,
+Caçapava,SP,L01,P11,,"R$35,00","R$35,00","R$50,00",,,95.018,pausado,12,
+Cafelândia,SP,L01,P11,Marília/SP,"R$40,00","R$45,00","R$0,00","R$0,00","R$50,00",17.843,ativa,14,
+Cajamar,SP,L01,"P08, P10, P16",Barueri/SP,"R$29,00","R$35,00",R$4/km a partir do CEP 06447-190 + $10 de pedágio (se houver),"R$0,00",perguntar,92.689,ativa,11,
+Caldas,MG,L01,,Poços de Caldas/MG,"R$29,00","R$29,00",R$2/km,,,14.480,fazer parceria,35,
+Camboriú,SC,,P02,Itajaí/SC,"R$43,00","R$43,00","R$0,00","R$0,00","R$50,00",62.361,pausado,47,
+Camboriú,SC,,P01,Tijucas/SC,"R$52,00","R$52,00","R$102,00","R$0,00","R$156,00",62.361,pausado,47,
+Campestre,MG,,,,"R$28,00","R$28,00","R$0,00",,,21.417,fazer parceria,35,
+Campina Grande do Sul,PR,,P06,Piraquara/PR,"R$58,00","R$58,00","R$0,00","R$0,00","R$25,00",44.072,inativa,41,
+Campinas,SP,L01,P10,Campinas/SP,"R$36,00","R$36,00","R$0,00","R$0,00","R$50,00",1.213.792,pausado,19,
+Campinas,SP,L03,P10,Mogi Guaçu/SP,"R$28,00","R$28,00","R$35,00","R$12,00",perguntar,1.213.792,inativa,19,
+Campo Largo,PR,,P06,Piraquara/PR,"R$58,00","R$58,00","R$0,00","R$0,00","R$25,00",133.865,inativa,41,
+Campo Magro,PR,,P06,Piraquara/PR,"R$58,00","R$58,00","R$0,00","R$0,00","R$25,00",30.151,inativa,41,
+Campo Mourão,PR,,,Cianorte/PR,"R$25,00","R$25,00","R$15,00",,,95.488,fazer parceria,44,
+Canelinha,SC,L01,P01,Tijucas/SC,"R$52,00","R$58,00","R$38,00","R$0,00","R$156,00",12.398,ativa,48,
+Caraguatatuba,SP,L01,P05,São Paulo/SP (ABCDM e Litoral),"R$27,00","R$39,00","R$80,00","R$12,00","R$50,00",123.389,ativa,12,Acima de 2 clientes
+Carambeí,PR,L01,P06,Ponta Grossa/PR,"R$36,00","R$40,00",R$2/km,"R$0,00","R$50,00",24.225,ativa,42,
+Carapicuíba,SP,L01,"P08, P10, P16",Barueri/SP,"R$26,00","R$35,00","A partir de 8km do CEP 06447-190, acrescentar R$3,00 no m²","R$0,00",perguntar,403.183,ativa,11,
+Carapicuíba,SP,L03,"P08, P10, P16",Osasco/SP,"R$50,00","R$56,00","R$0,00","R$0,00",perguntar,403.183,ativa,11,
+Carapicuíba,SP,L02,"P08, P10, P16",São Paulo/SP (Oeste),"R$27,00","R$39,00","R$48,00","R$12,00","R$50,00",279.704,ativa,11,
+Castro,PR,L01,P06,Ponta Grossa/PR,"R$36,00","R$40,00",R$2/km,"R$0,00","R$50,00",71.809,ativa,42,
+Catiguá,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,7.855,pausado,17,"Taxa para tapete molhado: R$20,00"
+Cedral,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,9.237,pausado,17,"Taxa para tapete molhado: R$20,00"
+Cerro Azul,PR,,P06,Piraquara/PR,"R$58,00","R$58,00","R$0,00","R$0,00","R$25,00",17.833,inativa,41,
+Cianorte,PR,,,Cianorte/PR,"R$25,00","R$25,00","R$15,00",,,83.816,fazer parceria,44,
+Cocal do Sul,SC,L02,P01,Içara/SC,"R$50,00","R$56,00","R$0,00","R$0,00",perguntar,16.821,ativa,48,
+Cocal do Sul,SC,L01,P01,Criciúma/SC,"R$42,00","R$47,00","R$15,00","R$0,00","R$50,00",16.821,ativa,48,
+Colombo,PR,,P06,Piraquara/PR,"R$58,00","R$58,00","R$0,00","R$0,00","R$25,00",246.540,inativa,41,
+Colombo,PR,,P06,Colombo/PR,"R$55,00","R$62,00","R$0,00","R$0,00","0,00",246.540,inativa,41,
+Conceição da Barra de Minas (antiga Cassiterita),MG,L01,P01,São João Del Rei/MG,"R$36,00","R$40,00","R$85,00","R$0,00","R$0,00",3.954,ativa,32,
+Contenda,PR,,P06,Piraquara/PR,"R$58,00","R$58,00","R$0,00","R$0,00","R$25,00",18.837,inativa,41,
+Coronel Xavier Chaves (antiga Coroas),MG,L01,P01,São João Del Rei/MG,"R$36,00","R$40,00","R$30,00","R$0,00","R$0,00",3.486,ativa,32,
+Cotia,SP,L01,"P08, P10, P16",Barueri/SP,"R$29,00","R$35,00",R$4/km a partir do CEP 06447-190 + $10 de pedágio (se houver),"R$0,00",perguntar,253.608,ativa,11,
+Cotia,SP,L02,"P08, P10, P16",Osasco/SP,"R$50,00","R$56,00","R$0,00","R$0,00",perguntar,253.608,ativa,11,
+Cotia,SP,,"P08, P10, P16",São Paulo/SP (Oeste),"R$27,00","R$39,00","R$40,00","R$12,00","R$50,00",253.608,ativa,11,
+Criciúma,SC,L01,P01,Criciúma/SC,"R$42,00","R$47,00","R$0,00","R$0,00","R$50,00",217.311,ativa,48,
+Criciúma,SC,L02,P01,Içara/SC,"R$50,00","R$56,00","R$0,00","R$0,00",perguntar,217.311,ativa,48,
+Cruzeiro do Oeste,PR,,,Cianorte/PR,"R$25,00","R$25,00","R$15,00",,,20.932,fazer parceria,44,
+Cubatão,SP,L01,P05,São Paulo/SP (ABCDM e Litoral),"R$27,00","R$39,00","R$80,00","R$12,00","R$50,00",131.626,ativa,13,Acima de 2 clientes
+Curitiba,PR,L01,P06,Curitiba/PR,"R$35,00","R$39,00","R$0,00","R$0,00","R$120,00",1.948.626,ativa,41,
+Curitiba,PR,L02,P06,Piraquara/PR,"R$50,00","R$56,00","R$0,00","R$0,00","R$25,00",1.948.626,ativa,41,
+Curitiba,PR,L03,P06,Pinhais/PR,"R$55,00","R$62,00","R$0,00","R$0,00",perguntar,1.948.626,ativa,41,
+Curitiba,PR,,P06,Colombo/PR,"R$55,00","R$62,00","R$0,00","R$0,00","0,00",1.948.626,inativa,41,
+Diadema,SP,L01,P05,São Paulo/SP (ABCDM e Litoral),"R$27,00","R$39,00","R$35,00","R$12,00","R$50,00",426.757,ativa,11,
+Dores de Campos,MG,L01,P01,São João Del Rei/MG,"R$36,00","R$40,00","R$85,00","R$0,00","R$0,00",10.223,ativa,32,
+Doutor Camargo,PR,,,Cianorte/PR,"R$25,00","R$25,00","R$15,00",,,5.987,fazer parceria,44,
+Embu das Artes,SP,L01,"P08, P10, P16",Embu das Artes/SP,"R$35,00","R$39,00","R$35,00","R$12,00",perguntar,276.535,ativa,11,até 12km
+Embu das Artes,SP,L02,"P08, P10, P16",São Paulo/SP (Oeste),"R$27,00","R$39,00","R$40,00","R$12,00","R$50,00",276.535,ativa,11,Acima de 2 clientes
+Embu-Guaçu,SP,L01,P08,,"R$24,00","R$24,00","R$35,00","R$12,00",,69.901,fazer parceria,17,
+Estiva Gerbi,SP,L01,P10,Mogi Guaçu/SP,"R$28,00","R$28,00","R$35,00","R$12,00",perguntar,11.407,inativa,19,
+Fazenda Rio Grande,PR,,P06,Colombo/PR,"R$55,00","R$62,00","R$0,00","R$0,00","0,00",100.209,inativa,41,
+Fazenda Rio Grande,PR,,P06,Piraquara/PR,"R$58,00","R$58,00","R$0,00","R$0,00","R$25,00",100.209,inativa,41,
+Ferraz de Vasconcelos,SP,L01,P07,São Paulo/SP (Leste),"R$27,00","R$39,00","R$40,00","R$12,00","R$50,00",196.500,ativa,11,
+Florianópolis,SC,L01,P01,Florianópolis/SC,"R$60,00","R$67,00","R$0,00","R$0,00",perguntar,508.826,ativa,48,
+Florianópolis,SC,L02,P02,Tijucas/SC,"R$52,00","R$52,00","R$140,00","R$0,00","R$156,00",100.000,pausado,48,Somente a parte continental
+Forquilhinha,SC,L02,P01,Içara/SC,"R$50,00","R$56,00","R$0,00","R$0,00",perguntar,22.548,ativa,48,
+Forquilhinha,SC,L01,P01,Criciúma/SC,"R$42,00","R$47,00","R$19,00","R$0,00","R$50,00",22.548,ativa,48,
+Garça,SP,L01,P11,Marília/SP,"R$40,00","R$45,00","R$0,00","R$0,00","R$50,00",44.409,ativa,14,
+Gaspar,SC,L01,P02,Blumenau/SC,"R$58,00","R$58,00",,"R$0,00","R$150,00",62.618,pausado,47,
+Getulina,SP,L01,P11,Marília/SP,"R$40,00","R$45,00","R$0,00","R$0,00","R$50,00",10.232,ativa,14,
+Goiânia,GO,L01,P09,Goiânia/GO,"R$40,00","R$40,00","R$25,00","R$0,00",perguntar,1.555.626,inativa,62,
+Goianira,GO,,,Goiânia/GO,"R$25,00","R$25,00","R$0,00",,,44.289,fazer parceria,62,
+Governador Celso Ramos,SC,L01,P01,Tijucas/SC,"R$52,00","R$58,00","R$96,00","R$0,00","R$156,00",14.606,ativa,48,
+Guaimbê,SP,L01,P11,Marília/SP,"R$40,00","R$45,00","R$0,00","R$0,00","R$50,00",5.785,ativa,14,
+Guaraci,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,11.287,pausado,17,"Taxa para tapete molhado: R$20,00"
+Guaramirim,SC,,,,,,,,,45.797,fazer parceria,47,
+Guarantã,SP,L01,P11,Marília/SP,"R$40,00","R$45,00","R$0,00","R$0,00","R$50,00",6.675,ativa,14,
+Guarujá,SP,L01,P05,São Paulo/SP (ABCDM e Litoral),"R$27,00","R$39,00","R$80,00","R$12,00","R$50,00",322.750,ativa,13,Acima de 2 clientes
+Guarulhos,SP,L01,P07,São Paulo/SP (Leste),"R$27,00","R$39,00","R$40,00","R$12,00","R$50,00",1.379.182,ativa,11,
+Guarulhos,SP,L02,P07,Guarulhos/SP,"R$50,00","R$50,00","R$0,00","R$0,00",perguntar,1.379.182,inativa,11,
+Herculândia,SP,L01,P11,Marília/SP,"R$40,00","R$45,00","R$0,00","R$0,00","R$50,00",9.588,ativa,14,
+Hortolândia,SP,L01,P10,Campinas/SP,"R$36,00","R$36,00","R$0,00","R$0,00","R$50,00",234.259,pausado,19,
+Iacri,SP,L01,P11,Marília/SP,"R$40,00","R$45,00","R$0,00","R$0,00","R$50,00",6.295,ativa,14,
+Ibirá,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,12.393,pausado,17,"Taxa para tapete molhado: R$20,00"
+Içara,SC,L02,P01,Içara/SC,"R$50,00","R$56,00","R$0,00","R$0,00",perguntar,57.247,ativa,48,
+Içara,SC,L01,P01,Criciúma/SC,"R$42,00","R$47,00","R$14,00","R$0,00","R$50,00",57.247,ativa,48,
+Icém,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,8.243,pausado,17,"Taxa para tapete molhado: R$20,00"
+Ijaci,MG,L01,P01,Lavras/MG,"R$43,00","R$43,00","R$25,00","R$0,00","R$0,00",7.003,inativa,35,Frete grátis a partir do 2º tapete
+Ilhabela,SP,L01,P05,São Paulo/SP (ABCDM e Litoral),"R$27,00","R$39,00","R$80,00","R$12,00","R$50,00",35.591,ativa,12,Acima de 2 clientes
+Ilhota,SC,,,,,,,,,13.124,fazer parceria,47,
+Imbituva,PR,L01,P06,Ponta Grossa/PR,"R$36,00","R$40,00",R$2/km,"R$0,00","R$50,00",32.564,ativa,42,
+Indaiatuba,SP,L01,P10,Campinas/SP,"R$36,00","R$36,00","R$80,00","R$0,00","R$150,00",256.223,pausado,19,
+Itajaí,SC,,P02,Itajaí/SC,"R$43,00","R$43,00","R$0,00","R$0,00","R$50,00",223.112,pausado,47,
+Itanhaém,SP,L01,P05,Praia Grande/SP,"R$43,00","R$48,00","R$20,00","R$0,00","R$90,00",103.102,ativa,13,
+Itanhaém,SP,L02,P05,São Paulo/SP (ABCDM e Litoral),"R$27,00","R$39,00","R$80,00","R$12,00","R$50,00",103.102,ativa,13,Acima de 2 clientes
+Itapecerica da Serra,SP,L01,"P08, P10, P16",Embu das Artes/SP,"R$35,00","R$39,00","R$35,00","R$12,00",perguntar,177.662,ativa,11,até 12km
+Itapema,SC,L02,P02,Tijucas/SC,"R$52,00","R$58,00","R$58,00","R$0,00","R$156,00",67.338,ativa,47,
+Itapema,SC,L01,P02,Itapema/SC,"R$45,00","R$50,00","R$0,00","R$0,00","R$50,00",67.338,ativa,47,
+Itaperuçu,PR,,P06,Piraquara/PR,"R$58,00","R$58,00","R$0,00","R$0,00","R$25,00",29.493,inativa,41,
+Itapevi,SP,L01,"P08, P10, P16",Barueri/SP,"R$26,00","R$35,00","A partir de 8km do CEP 06447-190, acrescentar R$3,00 no m²","R$0,00",perguntar,240.961,ativa,11,
+Itapevi,SP,L02,"P08, P10, P16",São Paulo/SP (Oeste),"R$27,00","R$39,00","R$48,00","R$12,00","R$50,00",279.704,ativa,11,
+Itapevi,SP,L03,"P08, P10, P16",Osasco/SP,"R$50,00","R$56,00","R$0,00","R$0,00",perguntar,240.961,ativa,11,
+Itapira,SP,L01,P10,Mogi Guaçu/SP,"R$28,00","R$28,00","R$35,00","R$12,00",perguntar,75.234,inativa,19,
+Itaquaquecetuba,SP,L01,P07,São Paulo/SP (Leste),"R$27,00","R$39,00","R$40,00","R$12,00","R$50,00",375.011,ativa,11,
+Itatiba,SP,L01,P10,Campinas/SP,"R$36,00","R$36,00","R$0,00","R$0,00","R$50,00",122.581,pausado,19,
+Itu,SP,L01,P10,Campinas/SP,"R$36,00","R$36,00","R$80,00","R$0,00","R$150,00",175.568,pausado,11,
+Jacareí,SP,L01,"P11, P14",São José dos Campos/SP,"R$50,00","R$56,00","R$0,00","R$0,00","R$120,00",235.416,ativa,12,
+Jaci,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,7.322,pausado,17,"Taxa para tapete molhado: R$20,00"
+Jandira,SP,L01,"P08, P10, P16",Barueri/SP,"R$26,00","R$35,00","A partir de 8km do CEP 06447-190, acrescentar R$3,00 no m²","R$0,00",perguntar,126.356,ativa,11,
+Jandira,SP,L02,"P08, P10, P16",Osasco/SP,"R$50,00","R$56,00","R$0,00","R$0,00",perguntar,126.356,ativa,11,
+Jaraguá do Sul,SC,,,,,,,,,181.173,fazer parceria,47,
+Joinville,SC,L01,P02,Joinville/SC,"R$50,00","R$56,00","A partir de 9km do CEP 89221-585, R$15,00","R$0,00",3m² ou 3 edredons,604.708,ativa,47,
+Julio Mesquita,SP,L01,P11,Marília/SP,"R$40,00","R$45,00","R$0,00","R$0,00","R$50,00",4.776,ativa,14,
+Jussara,PR,,,Cianorte/PR,"R$25,00","R$25,00","R$15,00",,,7.041,fazer parceria,44,
+Lagoa Dourada,MG,L01,,São João Del Rei/MG,"R$36,00","R$36,00","R$70,00","R$0,00","R$0,00",12.769,inativa,32,
+Lapa,PR,,P06,Piraquara/PR,"R$58,00","R$58,00","R$0,00","R$0,00","R$25,00",48.410,inativa,41,
+Lavras,MG,L01,P01,Lavras/MG,"R$43,00","R$43,00","R$0,00","R$0,00","R$0,00",104.761,inativa,35,
+Lins,SP,L01,P11,Marília/SP,"R$40,00","R$45,00","R$0,00","R$0,00","R$50,00",78.503,ativa,14,
+Louveira,SP,L01,P10,Campinas/SP,"R$36,00","R$36,00","R$60,00","R$0,00","R$50,00",49.993,pausado,19,
+Mandaguaçu,PR,L01,P06,Maringá/PR,"R$38,00","R$43,00","R$0,00","R$0,00","R$120,00",23.100,ativa,44,
+Mandirituba,PR,,P06,Piraquara/PR,"R$58,00","R$58,00","R$0,00","R$0,00","R$25,00",27.750,inativa,41,
+Maracajá,SC,L01,P01,Criciúma/SC,"R$42,00","R$47,00","R$28,00","R$0,00","R$50,00",7.461,ativa,48,
+Marialva,PR,L01,P06,Maringá/PR,"R$38,00","R$43,00","R$0,00","R$0,00","R$120,00",35.804,ativa,44,
+Marília,SP,L01,P11,Marília/SP,"R$30,00","R$34,00","R$0,00","R$0,00","R$50,00",33.000,ativa,14,Distrito de Dirceu: R$40/m²
+Maringá,PR,L01,P06,Maringá/PR,"R$38,00","R$43,00","R$0,00","R$0,00","R$100,00",403.063,ativa,44,Iguatemi: pedido mínimo R$120
+Mauá,SP,L01,P05,São Paulo/SP (ABCDM e Litoral),"R$27,00","R$39,00","R$35,00","R$12,00","R$50,00",447.552,ativa,11,
+Meleiro,SC,L01,P01,Criciúma/SC,"R$42,00","R$47,00","R$39,00","R$0,00","R$50,00",6.989,ativa,48,
+Mirassol,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,26.768,pausado,17,"Taxa para tapete molhado: R$20,00"
+Mirassolândia,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,4.919,pausado,17,"Taxa para tapete molhado: R$20,00"
+Mogi das Cruzes,SP,L01,P07,Mogi das Cruzes/SP,"R$33,00","R$33,00","R$0,00","R$0,00",perguntar,450.785,pausado,11,
+Mogi Mirim,SP,L01,P10,Mogi Guaçu/SP,"R$28,00","R$28,00","R$35,00","R$12,00",perguntar,94.098,inativa,19,
+Mogi-Guaçu,SP,L01,P10,Mogi Guaçu/SP,"R$28,00","R$28,00","R$35,00","R$12,00",perguntar,154.146,inativa,19,
+Mongaguá,SP,L01,P05,Praia Grande/SP,"R$43,00","R$48,00","R$0,00","R$0,00","R$90,00",57.648,ativa,13,
+Mongaguá,SP,L02,P05,São Paulo/SP (ABCDM e Litoral),"R$27,00","R$39,00","R$80,00","R$12,00","R$50,00",57.648,ativa,13,Acima de 2 clientes
+Monte Aprazível,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,25.373,pausado,17,"Taxa para tapete molhado: R$20,00"
+Monte Mor,SP,L01,P10,Campinas/SP,"R$36,00","R$36,00","R$0,00","R$0,00","R$50,00",60.754,pausado,19,
+Morro da Fumaça,SC,L01,P01,Criciúma/SC,"R$42,00","R$47,00","R$23,00","R$0,00","R$50,00",17.947,ativa,48,
+Navegantes,SC,,P02,Itajaí/SC,"R$43,00","R$43,00","R$0,00","R$0,00","R$50,00",83.626,pausado,47,
+Nazareno,MG,L01,P01,São João Del Rei/MG,"R$36,00","R$40,00","R$100,00","R$0,00","R$0,00",8.179,ativa,32,
+Neves Paulista,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,8.923,pausado,17,"Taxa para tapete molhado: R$20,00"
+Nova Aliança,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,7.068,pausado,17,"Taxa para tapete molhado: R$20,00"
+Nova Granada,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,21.689,pausado,17,"Taxa para tapete molhado: R$20,00"
+Nova Odessa,SP,L01,P10,Campinas/SP,"R$36,00","R$36,00","R$0,00","R$0,00","R$50,00",60.956,pausado,19,
+Nova Trento,SC,L01,P01,Tijucas/SC,"R$52,00","R$58,00","R$85,00","R$0,00","R$156,00",14.782,ativa,48,
+Nova Veneza,SC,L02,P01,Içara/SC,"R$50,00","R$56,00","R$0,00","R$0,00",perguntar,13.309,ativa,48,
+Nova Veneza,SC,L01,P01,Criciúma/SC,"R$42,00","R$47,00","R$18,00","R$0,00","R$50,00",13.309,ativa,48,
+Olímpia,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,55.130,pausado,17,"Taxa para tapete molhado: R$20,00"
+Onda Verde,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,4.422,pausado,17,"Taxa para tapete molhado: R$20,00"
+Oriente,SP,L01,P11,Marília/SP,"R$40,00","R$45,00","R$0,00","R$0,00","R$50,00",6.542,ativa,14,
+Osasco,SP,L01,"P08, P10, P16",Barueri/SP,"R$26,00","R$35,00","A partir de 8km do CEP 06447-190, acrescentar R$3,00 no m²","R$0,00",perguntar,701.428,ativa,11,
+Osasco,SP,L02,"P08, P10, P16",São Paulo/SP (Oeste),"R$27,00","R$39,00","R$40,00","R$12,00","R$50,00",701.428,ativa,11,
+Osasco,SP,L03,"P08, P10, P16",Osasco/SP,"R$50,00","R$56,00","R$0,00","R$0,00",perguntar,701.428,ativa,11,
+Osvaldo Cruz,SP,L01,P11,Marília/SP,"R$40,00","R$45,00","R$0,00","R$0,00","R$50,00",33.000,ativa,14,
+Paiçandu,PR,L01,P06,Maringá/PR,"R$38,00","R$43,00","R$0,00","R$0,00","R$120,00",41.773,ativa,44,
+Palhoça,SC,L01,P01,Florianópolis/SC,"R$60,00","R$67,00","R$0,00","R$0,00",perguntar,137.334,ativa,48,
+Palmeira,PR,L01,P06,Ponta Grossa/PR,"R$36,00","R$40,00",R$2/km,"R$0,00","R$50,00",33.757,ativa,42,
+Paraíso do Norte,PR,,,Cianorte/PR,"R$25,00","R$25,00","R$15,00",,,14.023,fazer parceria,44,
+Paranaguá,PR,,,Paranaguá/PR,"R$35,00","R$35,00","R$0,00",,,156.174,fazer parceria,41,
+Paranavaí,PR,,,Cianorte/PR,"R$25,00","R$25,00","R$15,00",,,88.922,fazer parceria,44,
+Paulínia,SP,L01,P10,Campinas/SP,"R$36,00","R$36,00","R$0,00","R$0,00","R$50,00",112.003,pausado,19,
+Penha,SC,,P02,Itajaí/SC,"R$43,00","R$43,00","R$0,00","R$0,00","R$50,00",33.284,pausado,47,
+Peruíbe,SP,L01,P05,São Paulo/SP (ABCDM e Litoral),"R$27,00","R$39,00","R$80,00","R$12,00","R$50,00",69.001,ativa,13,Acima de 2 clientes
+Pinhais,PR,,P06,Piraquara/PR,"R$50,00","R$50,00","R$0,00","R$0,00","R$25,00",133.490,inativa,41,
+Pinhais,PR,L01,P06,Pinhais/PR,"R$55,00","R$62,00","R$0,00","R$0,00",perguntar,133.490,ativa,41,
+Pinhais,PR,L02,P06,Curitiba/PR,"R$35,00","R$39,00","R$0,00","R$0,00","R$120,00",133.490,ativa,41,Somente em Alphaville Graciosa e Pineville
+Piraí do Sul,PR,L01,P06,Ponta Grossa/PR,"R$36,00","R$40,00",R$2/km,"R$0,00","R$50,00",25.291,ativa,42,
+Piraquara,PR,,P06,Piraquara/PR,"R$58,00","R$58,00","R$0,00","R$0,00","R$25,00",114.970,inativa,41,
+Poá,SP,L01,P07,São Paulo/SP (Leste),"R$27,00","R$39,00","R$40,00","R$12,00","R$50,00",118.349,ativa,11,
+Poços de Caldas,MG,L01,,Poços de Caldas/MG,"R$29,00","R$29,00","R$0,00",,,168.641,fazer parceria,35,
+Pompeia,SP,L01,P11,Marília/SP,"R$40,00","R$45,00","R$0,00","R$0,00","R$50,00",22.172,ativa,14,
+Ponta Grossa,PR,L01,P06,Ponta Grossa/PR,"R$36,00","R$40,00","R$0,00","R$0,00","R$50,00",355.336,ativa,42,
+Porto Belo,SC,L01,P02,Itapema/SC,"R$45,00","R$50,00","R$0,00","R$0,00","R$50,00",21.932,ativa,47,
+Porto Belo,SC,L02,P01,Tijucas/SC,"R$52,00","R$58,00","R$42,00","R$0,00","R$156,00",21.932,ativa,47,
+Prados,MG,L01,P01,São João Del Rei/MG,"R$36,00","R$40,00","R$55,00","R$0,00","R$0,00",9.048,ativa,32,
+Praia Grande,SP,L01,P05,Praia Grande/SP,"R$43,00","R$48,00","R$0,00","R$0,00","R$90,00",330.845,ativa,13,
+Praia Grande,SP,L02,P05,São Paulo/SP (ABCDM e Litoral),"R$27,00","R$39,00","R$65,00","R$12,00","R$50,00",330.845,ativa,13,Acima de 2 clientes
+Quatro Barras,PR,,P06,Piraquara/PR,"R$58,00","R$58,00","R$0,00","R$0,00","R$25,00",22.000,inativa,41,
+Quintana,SP,L01,P11,Marília/SP,"R$40,00","R$45,00","R$0,00","R$0,00","R$50,00",6.688,ativa,14,
+Quitandinha,PR,,P06,Piraquara/PR,"R$58,00","R$58,00","R$0,00","R$0,00","R$25,00",19.388,inativa,41,
+Resende Costa,MG,L01,P01,São João Del Rei/MG,"R$36,00","R$40,00","R$75,00","R$0,00","R$0,00",11.578,ativa,32,
+Reserva,PR,L01,P06,Ponta Grossa/PR,"R$36,00","R$40,00",R$2/km,"R$0,00","R$50,00",26.600,ativa,42,
+Ribeirão Pires,SP,L01,P07,São Paulo/SP (Leste),"R$27,00","R$39,00","R$35,00","R$12,00","R$50,00",124.159,ativa,11,
+Ribeirão Vermelho,MG,L01,P01,Lavras/MG,"R$43,00","R$43,00","R$25,00","R$0,00","R$0,00",4.080,inativa,35,Frete grátis a partir do 2º tapete
+Rio Branco do Sul,PR,,P06,Piraquara/PR,"R$58,00","R$58,00","R$0,00","R$0,00","R$25,00",32.635,inativa,41,
+Rio Negro,PR,,P06,Piraquara/PR,"R$58,00","R$58,00","R$0,00","R$0,00","R$25,00",34.411,inativa,41,
+Ritápolis,MG,L01,P01,São João Del Rei/MG,"R$36,00","R$40,00","R$35,00","R$0,00","R$0,00",4.604,ativa,32,
+Rondon,PR,,,Cianorte/PR,"R$25,00","R$25,00","R$15,00",,,9.622,fazer parceria,44,
+Salto,SP,L01,P10,Campinas/SP,"R$36,00","R$36,00","R$80,00","R$0,00","R$150,00",119.736,pausado,11,
+Sangão,SC,L01,P01,Criciúma/SC,"R$42,00","R$47,00","R$39,00","R$0,00","R$50,00",12.905,ativa,48,
+Santa Cruz de Minas,MG,L01,P01,São João Del Rei/MG,"R$36,00","R$40,00","R$0,00","R$0,00","R$0,00",8.723,ativa,32,
+Santana de Parnaíba,SP,L01,"P08, P10, P16",Barueri/SP,"R$26,00","R$35,00","A partir de 8km do CEP 06447-190, acrescentar R$3,00 no m²","R$0,00",perguntar,142.301,ativa,11,
+Santana de Parnaíba,SP,L02,"P08, P10, P16",São Paulo/SP (Oeste),"R$27,00","R$39,00","R$48,00","R$12,00","R$50,00",279.704,ativa,11,Alphaville
+Santo André,SP,L01,P05,São Paulo/SP (ABCDM e Litoral),"R$27,00","R$39,00","R$35,00","R$12,00","R$50,00",721.368,ativa,11,
+Santo Antônio de Goiás,GO,,,Goiânia/GO,"R$25,00","R$25,00","R$0,00",,,6.283,fazer parceria,62,
+Santos,SP,L01,P05,Praia Grande/SP,"R$43,00","R$48,00","R$0,00","R$0,00","R$90,00",433.656,ativa,13,
+Santos,SP,L02,P05,São Paulo/SP (ABCDM e Litoral),"R$27,00","R$39,00","R$65,00","R$12,00","R$50,00",433.656,ativa,13,Acima de 2 clientes
+São Bernardo do Campo,SP,L01,P05,São Paulo/SP (ABCDM e Litoral),"R$27,00","R$39,00","R$35,00","R$12,00","R$50,00",844.483,ativa,11,
+São Caetano do Sul,SP,L01,P05,São Paulo/SP (ABCDM e Litoral),"R$27,00","R$39,00","R$35,00","R$12,00","R$50,00",161.957,ativa,11,
+São João Batista,SC,L01,P01,Tijucas/SC,"R$52,00","R$58,00","R$67,00","R$0,00","R$156,00",39.719,ativa,48,
+São João da Boa Vista,SP,,,,"R$28,00","R$28,00","R$0,00",,,91.771,fazer parceria,19,
+São João Del Rei,MG,L01,P01,São João Del Rei/MG,"R$36,00","R$40,00","R$0,00","R$0,00","R$0,00",90.225,ativa,32,"Frete para os distritos: Rio das Mortes, R$20; São Sebastião da Vitória, R$30."
+São José,SC,L01,P01,Florianópolis/SC,"R$60,00","R$67,00","R$0,00","R$0,00",perguntar,250.181,ativa,48,
+São José,SC,L02,P01,Tijucas/SC,"R$52,00","R$52,00","R$134,00","R$0,00","R$156,00",250.181,pausado,48,
+São José do Rio Preto,SP,L01,P11,São José do Rio Preto/SP,"R$26,00","R$26,00","R$0,00","R$0,00",perguntar,464.983,pausado,17,"Taxa para tapete molhado: R$20,00"
+São José dos Campos,SP,L01,"P11, P14",São José dos Campos/SP,"R$50,00","R$56,00","R$0,00","R$0,00","R$120,00",496.132,ativa,12,
+São José dos Pinhais,PR,L01,P06,São José dos Pinhais/PR,"R$43,00","R$48,00","R$10,00","R$0,00",perguntar,329.058,ativa,41,Frete até 5km: R$10. Até 10km: R$20. Acima de 10km: R$3/km
+São José dos Pinhais,PR,,P06,Piraquara/PR,"R$50,00","R$50,00","R$0,00","R$0,00","R$25,00",329.058,inativa,41,
+São José dos Pinhais,PR,,P06,Colombo/PR,"R$55,00","R$62,00","R$0,00","R$0,00","0,00",329.058,inativa,41,
+São Paulo,SP,L01,"P03, P04, P15",São Paulo/SP,"R$27,00","R$39,00","R$35,00","R$12,00","R$50,00",1.138.776,ativa,11,Zona Central
+São Paulo,SP,L01,"P03, P04, P15",São Paulo/SP,"R$27,00","R$39,00","R$35,00","R$12,00","R$50,00",4.415.294,ativa,11,Zona Leste
+São Paulo,SP,,P03 e P04,Guarulhos/SP,"R$50,00","R$50,00","R$0,00","R$0,00",perguntar,4.415.294,inativa,11,Zona Leste
+São Paulo,SP,L01,"P03, P04, P15",São Paulo/SP,"R$27,00","R$39,00","R$35,00","R$0,00",perguntar,2.386.859,ativa,11,Zona Norte
+São Paulo,SP,L02,"P03, P04, P15",Barueri/SP,"R$29,00","R$35,00",R$4/km a partir do CEP 06447-190 + $10 de pedágio (se houver),"R$0,00",perguntar,2.386.859,ativa,11,Zona Norte
+São Paulo,SP,L03,"P03, P04, P15",Osasco/SP,"R$50,00","R$56,00","R$0,00","R$0,00",perguntar,2.386.859,ativa,11,Zona Norte
+São Paulo,SP,,P03 e P04,Guarulhos/SP,"R$50,00","R$50,00","R$0,00","R$0,00",perguntar,2.386.859,inativa,11,Zona Norte
+São Paulo,SP,L01,"P03, P04, P15",São Paulo/SP,"R$27,00","R$39,00","R$35,00","R$0,00",perguntar,951.590,ativa,11,Zona Oeste
+São Paulo,SP,L02,"P03, P04, P15",Barueri/SP,"R$29,00","R$35,00",R$4/km a partir do CEP 06447-190 + $10 de pedágio (se houver),"R$0,00",perguntar,951.590,ativa,11,Zona Oeste
+São Paulo,SP,L03,"P03, P04, P15",Embu das Artes/SP,"R$35,00","R$39,00","R$35,00","R$12,00",perguntar,951.590,ativa,11,Zona Oeste; até 12km
+São Paulo,SP,L04,"P03, P04, P15",Osasco/SP,"R$50,00","R$56,00","R$0,00","R$0,00",perguntar,951.590,ativa,11,Zona Oeste
+São Paulo,SP,L01,"P03, P04, P15",São Paulo/SP,"R$27,00","R$39,00","R$35,00","R$12,00","R$50,00",2.558.726,ativa,11,Zona Sul
+São Paulo,SP,L02,"P03, P04, P15",Embu das Artes/SP,"R$35,00","R$39,00","R$35,00","R$12,00",perguntar,2.558.726,ativa,11,Zona Sul; até 12km
+São Tiago,MG,L01,P01,São João Del Rei/MG,"R$36,00","R$40,00","R$100,00","R$0,00","R$0,00",11.192,ativa,32,
+São Vicente,SP,L01,P05,Praia Grande/SP,"R$43,00","R$48,00","R$0,00","R$0,00","R$90,00",368.355,ativa,13,
+Sarandi,PR,L01,P06,Maringá/PR,"R$38,00","R$43,00","R$0,00","R$0,00","R$120,00",96.688,ativa,44,
+Senador Canedo,GO,,,Goiânia/GO,"R$25,00","R$25,00","R$0,00",,,121.447,fazer parceria,62,
+Siderópolis,SC,L01,P01,Criciúma/SC,"R$42,00","R$47,00","R$12,00","R$0,00","R$50,00",14.176,ativa,48,
+Sumaré,SP,L01,P10,Campinas/SP,"R$36,00","R$36,00","R$0,00","R$0,00","R$50,00",286.211,pausado,19,
+Suzano,SP,L01,P07,São Paulo/SP (Leste),"R$27,00","R$39,00","R$40,00","R$12,00","R$50,00",300.559,ativa,11,
+Tabapuã,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,12.485,pausado,17,"Taxa para tapete molhado: R$20,00"
+Taboão da Serra,SP,L01,"P08, P10, P16",Embu das Artes/SP,"R$35,00","R$39,00","R$35,00","R$12,00",perguntar,293.652,ativa,11,até 12km
+Taboão da Serra,SP,L02,"P08, P10, P16",Barueri/SP,"R$29,00","R$35,00",R$4/km a partir do CEP 06447-190 + $10 de pedágio (se houver),"R$0,00",perguntar,293.652,ativa,11,
+Tanabi,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,26.101,pausado,17,"Taxa para tapete molhado: R$20,00"
+Tapejara,PR,,,Cianorte/PR,"R$25,00","R$25,00","R$15,00",,,24.973,fazer parceria,44,
+Taubaté,SP,L01,P11,,"R$35,00","R$35,00","R$100,00",,,317.915,pausado,12,
+Tijucas,SC,L01,P01,Tijucas/SC,"R$52,00","R$58,00","R$0,00","R$0,00","R$156,00",39.155,ativa,48,
+Tiradentes,MG,L01,,São João Del Rei/MG,"R$36,00","R$36,00","R$30,00","R$0,00","R$0,00",7.744,inativa,32,
+Treviso,SC,L01,P01,Criciúma/SC,"R$42,00","R$47,00","R$25,00","R$0,00","R$50,00",3.966,ativa,48,
+Treze de Maio,SC,L01,P01,Criciúma/SC,"R$42,00","R$47,00","R$39,00","R$0,00","R$50,00",7.104,ativa,48,
+Trindade,GO,,,Goiânia/GO,"R$25,00","R$25,00","R$0,00",,,129.823,fazer parceria,62,
+Tubarão,SC,,,,,,,,,106.422,fazer parceria,48,
+Tupã,SP,L01,P11,Marília/SP,"R$40,00","R$45,00","R$0,00","R$0,00","R$50,00",65.570,ativa,14,
+Ubatuba,SP,L01,P05,São Paulo/SP (ABCDM e Litoral),"R$27,00","R$39,00","R$80,00","R$12,00","R$50,00",91.824,ativa,12,Acima de 2 clientes
+Uchoa,SP,L01,P11,São José do Rio Preto/SP,"R$28,00","R$28,00","R$0,00","R$0,00",perguntar,10.151,pausado,17,"Taxa para tapete molhado: R$20,00"
+Umuarama,PR,,,Cianorte/PR,"R$25,00","R$25,00","R$15,00",,,112.500,fazer parceria,44,
+Urussanga,SC,L01,P01,Criciúma/SC,"R$42,00","R$47,00","R$32,00","R$0,00","R$50,00",20.826,ativa,48,
+Valinhos,SP,L01,P10,Campinas/SP,"R$36,00","R$36,00","R$0,00","R$0,00","R$50,00",131.210,pausado,19,
+Vargem Grande Paulista,SP,L01,"P08, P10, P16",Barueri/SP,"R$29,00","R$35,00",R$4/km a partir do CEP 06447-190 + $10 de pedágio (se houver),"R$0,00",perguntar,54.315,ativa,11,
+Vera Cruz,SP,L01,P11,Marília/SP,"R$40,00","R$45,00","R$0,00","R$0,00","R$50,00",10.823,ativa,14,
+Vinhedo,SP,L01,P10,Campinas/SP,"R$36,00","R$36,00","R$0,00","R$0,00","R$50,00",80.111,pausado,19,
+,,,,Araucária/PR,,,,,,146.214,,41,
+,,,,Barueri/SP,,,,,,2.294.545,,11,
+,,,,Belo Horizonte/MG,,,,,,2.722.000,,,
+,,,,Blumenau/SC,,,,,,361.855,,47,
+,,,,Colombo/PR,,,,,,466.790,,41,
+,,,,Criciúma/SC,,,,,,500.606,,48,
+,,,,Curitiba/PR,,,,,,1.948.626,,41,
+,,,,Embu das Artes/SP,,,,,,747.849,,11,
+,,,,Florianópolis/SC,,,,,,910.634,,48,
+,,,,Itapema/SC,,,,,,89.270,,47,
+,,,,Joinville/SC,,,,,,604.708,,47,
+,,,,Marília/SP,,,,,,776.453,,14,
+,,,,Maringá/PR,,,,,,230.365,,44,
+,,,,Pinhais/PR,,,,,,133.490,,41,
+,,,,Ponta Grossa/PR,,,,,,569.582,,42,
+,,,,Praia Grande/SP,,,,,,1.293.606,,13,
+,,,,São João Del Rei/MG,,,,,,189.853,,32,
+,,,,São José dos Campos/SP,,,,,,731.548,,12,
+,,,,São José dos Pinhais/PR,,,,,,329.058,,41,
+,,,,São Paulo/SP,,,,,,17.477.183,,11,
+,,,,Tijucas/SC,,,,,,120.660,,"47,48",
+,,,,,,,,,,32.644.895,,,
+,,,,,,,,,,,,,
+,,,,São Paulo/SP,,,,,,11.451.245,,11,
+,,,,São Paulo/SP (Leste),,,,,,2.584.917,,11,
+,,,,São Paulo/SP (ABCDM),,,,,,2.602.117,,11,
+,,,,São Paulo/SP (Litoral),,,,,,838.904,,13,
