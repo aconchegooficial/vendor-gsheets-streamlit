@@ -3,18 +3,14 @@ from streamlit_gsheets import GSheetsConnection
 import pandas as pd
 
 from constants import *
+from services.Database import *
 
 
 # DISPLAY TITLE AND DESCRIPTION
 st.title("Cadastro de Vendas")
 st.markdown("Adicione as informações de cadastro abaixo:")
 
-# ESTABLISHING A GOOGLE SHEETS CONNECTION
-conn = st.connection("gsheets", type=GSheetsConnection)
-
-# FETCH EXISTING DATA
-existing_data = conn.read(worksheet="DATABASE", usecols=list(range(6)), ttl=5)
-existing_data = existing_data.dropna(how="all")
+conn, existing_data = connection()
 
 st.divider()
 
@@ -75,7 +71,6 @@ with st.form(key="crm_form"):
             )
 
             updated_df = pd.concat([existing_data, vendor_data], ignore_index=True)
-            existing_data = updated_df
 
             # UPDATE DATAFRAME ON GOOGLE SHEETS
             conn.update(worksheet="DATABASE", data=updated_df)
