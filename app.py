@@ -2,13 +2,14 @@ import streamlit as st
 from streamlit_gsheets import GSheetsConnection
 import pandas as pd
 
-from constants import *
+from utils.Constants import *
 from services.Database import *
+from design.Design import *
 
 
 # DISPLAY TITLE AND DESCRIPTION
-st.title("Cadastro de Vendas")
-st.markdown("Adicione as informações de cadastro abaixo:")
+st.title(variable['PAGE TITLE'])
+st.markdown(variable['PAGE SUBTITLE'])
 
 conn, existing_data = connection()
 
