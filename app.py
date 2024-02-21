@@ -8,8 +8,8 @@ from design.Design import *
 
 
 # DISPLAY TITLE AND DESCRIPTION
-st.title(variable['PAGE TITLE'])
-st.markdown(variable['PAGE SUBTITLE'])
+st.title(titles['PAGE TITLE'])
+st.markdown(titles['PAGE SUBTITLE'])
 
 conn, existing_data = connection()
 
@@ -27,7 +27,6 @@ with st.form(key="crm_form"):
 
     st.markdown("#### Dados Geográficos do Cliente:")
     city = st.selectbox("Cidade", options=CITIES, index=None)
-    # add = st.selectbox("Advertising", options=CITIES, index=None)
     unity = st.selectbox("Unidade", options=CITIES, index=None)
     cep = st.number_input(label="CEP", min_value=0, max_value=99999999)
 
