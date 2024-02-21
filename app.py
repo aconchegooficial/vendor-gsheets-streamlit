@@ -75,6 +75,7 @@ with st.form(key="crm_form"):
             )
 
             updated_df = pd.concat([existing_data, vendor_data], ignore_index=True)
+            existing_data = updated_df
 
             # UPDATE DATAFRAME ON GOOGLE SHEETS
             conn.update(worksheet="DATABASE", data=updated_df)
