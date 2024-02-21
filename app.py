@@ -6,8 +6,8 @@ from constants import *
 
 
 # DISPLAY TITLE AND DESCRIPTION
-st.title("Customer Relationship Management")
-st.markdown("Enter de detais of the new vender below")
+st.title("Cadastro de Vendas")
+st.markdown("Adicione as informações de cadastro abaixo:")
 
 # ESTABLISHING A GOOGLE SHEETS CONNECTION
 conn = st.connection("gsheets", type=GSheetsConnection)
