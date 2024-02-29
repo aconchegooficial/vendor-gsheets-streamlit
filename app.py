@@ -36,7 +36,10 @@ with st.form(key="crm_form"):
     st.markdown("#### Dados Geográficos do Cliente:")
     city = st.selectbox("Cidade", options=CITIES, index=None)
 
-    unities = city_to_unity[city]
+    if city == None:
+        unities = CITIES
+    else:
+        unities = city_to_unity[city]
 
     # add = st.selectbox("Advertising", options=CITIES, index=None)
     unity = st.selectbox("Unidade", options=unities, index=None)
