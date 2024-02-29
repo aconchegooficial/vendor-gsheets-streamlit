@@ -23,37 +23,44 @@ existing_data = existing_data.dropna(how="all")
 
 st.divider()
 
+# form = st.form(key="crm_form")  
+
 with st.form(key="crm_form"):
-    st.markdown("#### Dados Pessoais do Cliente:")
-    date = st.date_input(label="Data")
-    time = st.time_input(label="Hora")
+    c1, c2, c3 = st.columns(3)
 
-    name = st.text_input(label="Nome")
-    phone = st.number_input(label="Telefone", min_value=0, max_value=99999999999)
+    with c1:
+        st.markdown("#### Dados Pessoais do Cliente:")
+        date = st.date_input(label="Data")
+        time = st.time_input(label="Hora")
 
-    st.divider()
+        name = st.text_input(label="Nome")
+        phone = st.number_input(label="Telefone", min_value=0, max_value=99999999999)
 
-    st.markdown("#### Dados Geográficos do Cliente:")
-    city = st.selectbox("Cidade", options=CITIES, index=None)
+    # st.divider()
 
-    if city == None:
-        unities = CITIES
-    else:
-        unities = city_to_unity[city]
+    with c2:
+        st.markdown("#### Dados Geográficos do Cliente:")
+        city = st.selectbox("Cidade", options=CITIES, index=None)
 
-    # add = st.selectbox("Advertising", options=CITIES, index=None)
-    unity = st.selectbox("Unidade", options=unities, index=None)
-    cep = st.number_input(label="CEP", min_value=0, max_value=99999999)
+        if city == None:
+            unities = CITIES
+        else:
+            unities = city_to_unity[city]
 
-    st.divider()
+        # add = st.selectbox("Advertising", options=CITIES, index=None)
+        unity = st.selectbox("Unidade", options=unities, index=None)
+        cep = st.number_input(label="CEP", min_value=0, max_value=99999999)
 
-    st.markdown("#### Informações da Venda:")
-    service_id = st.selectbox("Tipo de Serviço", options=SERVICES, index=None)
-    sell_value = st.number_input(label="Valor", step=0.01, value=None)
-    payied = st.number_input(label="Valor à Vista", step=0.01, value=None)
-    comission = st.number_input(label="Comissão", step=0.01, value=None)
-        
-    add_info = st.text_area(label="Notas Adicionais")
+    # st.divider()
+
+    with c3:
+        st.markdown("#### Informações da Venda:")
+        service_id = st.selectbox("Tipo de Serviço", options=SERVICES, index=None)
+        sell_value = st.number_input(label="Valor", step=0.01, value=None)
+        payied = st.number_input(label="Valor à Vista", step=0.01, value=None)
+        comission = st.number_input(label="Comissão", step=0.01, value=None)
+            
+        add_info = st.text_area(label="Notas Adicionais")
 
     submit_button = st.form_submit_button(label="Cadastrar Venda") 
 
