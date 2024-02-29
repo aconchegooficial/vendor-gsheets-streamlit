@@ -9,6 +9,10 @@ from utils.Constants import *
 with open("utils/city_to_unity.pkl", "rb") as f:
     city_to_unity = pkl.load(f)
 
+with open("design/styles.css") as f:
+    st.markdown(f"<style>{f.read()}</style>",
+                unsafe_allow_html=True)
+
 
 # DISPLAY TITLE AND DESCRIPTION
 st.title("Cadastro Automático de Vendas")
