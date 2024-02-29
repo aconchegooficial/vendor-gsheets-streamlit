@@ -10,8 +10,7 @@ from services.Style import Style
 with open("utils/city_to_unity.pkl", "rb") as f:
     city_to_unity = pkl.load(f)
 
-style = Style("design/styles.css")
-style.connect_stylesheet()
+Style("design/styles.css").connect_stylesheet()
 # with open("design/styles.css") as f:
 #     st.markdown(f"<style>{f.read()}</style>",
 #                 unsafe_allow_html=True)
