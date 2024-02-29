@@ -5,6 +5,6 @@ class Style:
         self.style_path = style_path
 
     def connect_stylesheet(self):
-        with open(self.path) as f:
+        with open(self.style_path) as f:
             st.markdown(f"<style>{f.read()}</style>",
                 unsafe_allow_html=True)
