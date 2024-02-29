@@ -21,12 +21,12 @@ conn = st.connection("gsheets", type=GSheetsConnection)
 existing_data = conn.read(worksheet="DATABASE", usecols=list(range(6)), ttl=5)
 existing_data = existing_data.dropna(how="all")
 
-st.divider()
+# st.divider()
 
 # form = st.form(key="crm_form")  
 
 with st.form(key="crm_form"):
-    c1, c2, c3 = st.columns(3)
+    c1, c2, c3 = st.columns(3, gap="medium")
 
     with c1:
         st.markdown("#### Dados Pessoais do Cliente:")
