@@ -1,17 +1,25 @@
 import streamlit as st
 from streamlit_gsheets import GSheetsConnection
 import pandas as pd
+import pickle as pkl
 
 from utils.Constants import *
-from services.Database import *
-from design.Design import *
+
+# LOAD CONSTANTS
+with open("utils/city_to_unity.pkl", "rb") as f:
+    city_to_unity = pkl.load(f)
 
 
 # DISPLAY TITLE AND DESCRIPTION
-st.title(titles['PAGE TITLE'])
-st.markdown(titles['PAGE SUBTITLE'])
+st.title("Cadastro Automático de Vendas")
+st.markdown("Adicione as informações da venda abaixo:")
 
-conn, existing_data = connection()
+# ESTABLISHING A GOOGLE SHEETS CONNECTION
+conn = st.connection("gsheets", type=GSheetsConnection)
+
+# FETCH EXISTING DATA
+existing_data = conn.read(worksheet="DATABASE", usecols=list(range(6)), ttl=5)
+existing_data = existing_data.dropna(how="all")
 
 st.divider()
 
@@ -27,7 +35,11 @@ with st.form(key="crm_form"):
 
     st.markdown("#### Dados Geográficos do Cliente:")
     city = st.selectbox("Cidade", options=CITIES, index=None)
-    unity = st.selectbox("Unidade", options=CITIES, index=None)
+
+    unities = city_to_unity[city]
+
+    # add = st.selectbox("Advertising", options=CITIES, index=None)
+    unity = st.selectbox("Unidade", options=unities, index=None)
     cep = st.number_input(label="CEP", min_value=0, max_value=99999999)
 
     st.divider()
