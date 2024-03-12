@@ -6,8 +6,8 @@ SERVICES = [
 ]
 
 RECURRENT_OPTIONS = [
-    "Retornando",
-    "Inédito"
+    "Inédito",
+    "Retornando"
 ]
 
 CITIES = ['Abadia de Goiás','Águas da Prata','Almirante Tamandaré','Altair',

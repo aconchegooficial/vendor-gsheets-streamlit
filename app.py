@@ -41,7 +41,7 @@ with st.form(key="crm_form"):
 
         name = st.text_input(label="Nome")
         nickname = st.text_input(label="Apelido")
-        recurrent = st.selectbox("Recorrência", options=RECURRENT_OPTIONS)
+        recurrent = st.selectbox("Recorrência", options=RECURRENT_OPTIONS, index=None)
         phone = st.number_input(label="Telefone", min_value=0, max_value=99999999999)
 
     # st.divider()
