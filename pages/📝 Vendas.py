@@ -11,7 +11,7 @@ st.set_page_config(layout="wide")
 conn = st.connection("gsheets", type=GSheetsConnection)
 
 # FETCH EXISTING DATA
-existing_data = conn.read(worksheet="DATABASE", usecols=list(range(18)), ttl=5)
+existing_data = conn.read(worksheet="VENDAS", usecols=list(range(18)), ttl=5)
 existing_data = existing_data.dropna(how="all")
 
 # DISPLAY TITLE AND DESCRIPTION
@@ -102,6 +102,6 @@ with st.form(key="crm_form"):
             updated_df = pd.concat([existing_data, vendor_data], ignore_index=True)
 
             # UPDATE DATAFRAME ON GOOGLE SHEETS
-            conn.update(worksheet="DATABASE", data=updated_df)
+            conn.update(worksheet="VENDAS", data=updated_df)
 
             st.success("Nova Venda Cadastrada com Sucesso!")
