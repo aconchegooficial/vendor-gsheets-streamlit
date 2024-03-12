@@ -24,7 +24,7 @@ st.markdown("Adicione as informações da venda abaixo:")
 conn = st.connection("gsheets", type=GSheetsConnection)
 
 # FETCH EXISTING DATA
-existing_data = conn.read(worksheet="DATABASE", usecols=list(range(17)), ttl=5)
+existing_data = conn.read(worksheet="DATABASE", usecols=list(range(18)), ttl=5)
 existing_data = existing_data.dropna(how="all")
 
 # st.divider()
@@ -75,9 +75,11 @@ with st.form(key="crm_form"):
         c3_c1, c3_c2 = st.columns(2, gap="small")
 
         with c3_c1:
-            whatsapp = st.selectbox("Escolha o WhatsApp", options=WHATSAPP_OPTIONS)
+            whatsapp = st.selectbox("Escolha o WhatsApp", options=WHATSAPP_OPTIONS, index=None)
         with c3_c2:
-            perfil = st.selectbox("Excolha o Perfil", options=PERFIL_OPTIONS)
+            perfil = st.selectbox("Excolha o Perfil", options=PERFIL_OPTIONS, index=None)
+
+    status = st.selectbox("Status", options=STATUS, index=None)
 
     submit_button = st.form_submit_button(label="Cadastrar Venda") 
 
@@ -110,7 +112,8 @@ with st.form(key="crm_form"):
                     "Comissão": comission,
                     "Descrição": add_info,
                     "WhatsApp": whatsapp,
-                    "Perfil": perfil
+                    "Perfil": perfil,
+                    "Status": status
                 }]
             )
 

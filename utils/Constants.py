@@ -33,6 +33,13 @@ PERFIL_OPTIONS = [
     "P12",
 ]
 
+STATUS = [
+    "Creditado",
+    "Cancelado pelo cliente",
+    "Cancelado pela lavanderia",
+    "Aguardando crédito"
+]
+
 CITIES = ['Abadia de Goiás','Águas da Prata','Almirante Tamandaré','Altair',
           'Aparecida de Goiânia','Araquari','Araranguá','Araruna','Araucária',
           'Arujá','Bady Bassitt','Balneário Camboriú','Balneário Piçarras',
