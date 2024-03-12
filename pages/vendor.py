@@ -15,7 +15,7 @@ existing_data = conn.read(worksheet="DATABASE", usecols=list(range(18)), ttl=5)
 existing_data = existing_data.dropna(how="all")
 
 # DISPLAY TITLE AND DESCRIPTION
-st.title("Cadastro de Vendas")
+st.title("Cadastro de Vendas 📝")
 st.markdown("### Adicione as informações da venda abaixo:")
 
 with st.form(key="crm_form"):
