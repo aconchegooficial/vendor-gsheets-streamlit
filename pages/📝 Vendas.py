@@ -31,6 +31,11 @@ with st.form(key="crm_form"):
         recurrent = st.selectbox("Recorrência", options=RECURRENT_OPTIONS, index=None)
         phone = st.number_input(label="Telefone", min_value=0, max_value=99999999999)
 
+        if len(phone) < 11:
+            phone_validation = True
+        else:
+            phone = '(' + phone[:2] + ') ' + phone[2:]
+
     # st.divider()
 
     with c2:
