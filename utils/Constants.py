@@ -10,6 +10,29 @@ RECURRENT_OPTIONS = [
     "Retornando"
 ]
 
+WHATSAPP_OPTIONS = [
+    "w32",
+    "w08",
+    "w11",
+    "w47"
+]
+
+PERFIL_OPTIONS = [
+    "P00",
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+]
+
 CITIES = ['Abadia de Goiás','Águas da Prata','Almirante Tamandaré','Altair',
           'Aparecida de Goiânia','Araquari','Araranguá','Araruna','Araucária',
           'Arujá','Bady Bassitt','Balneário Camboriú','Balneário Piçarras',
