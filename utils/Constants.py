@@ -5,6 +5,11 @@ SERVICES = [
     "S04"
 ]
 
+RECURRENT_OPTIONS = [
+    "Retornando",
+    "Inédito"
+]
+
 CITIES = ['Abadia de Goiás','Águas da Prata','Almirante Tamandaré','Altair',
           'Aparecida de Goiânia','Araquari','Araranguá','Araruna','Araucária',
           'Arujá','Bady Bassitt','Balneário Camboriú','Balneário Piçarras',

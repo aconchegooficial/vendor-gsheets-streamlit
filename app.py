@@ -24,7 +24,7 @@ st.markdown("Adicione as informações da venda abaixo:")
 conn = st.connection("gsheets", type=GSheetsConnection)
 
 # FETCH EXISTING DATA
-existing_data = conn.read(worksheet="DATABASE", usecols=list(range(6)), ttl=5)
+existing_data = conn.read(worksheet="DATABASE", usecols=list(range(6)), ttl=7)
 existing_data = existing_data.dropna(how="all")
 
 # st.divider()
@@ -40,6 +40,8 @@ with st.form(key="crm_form"):
         time = st.time_input(label="Hora")
 
         name = st.text_input(label="Nome")
+        nickname = st.text_input(label="Apelido")
+        recurrent = st.selectbox("Recorrência", options=RECURRENT_OPTIONS)
         phone = st.number_input(label="Telefone", min_value=0, max_value=99999999999)
 
     # st.divider()
