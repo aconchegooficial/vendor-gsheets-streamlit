@@ -5,6 +5,8 @@ import pandas as pd
 
 from utils.Constants import *
 
+st.set_page_config(layout="wide")
+
 # ESTABLISHING A GOOGLE SHEETS CONNECTION
 conn = st.connection("gsheets", type=GSheetsConnection)
 
