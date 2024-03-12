@@ -24,7 +24,7 @@ st.markdown("Adicione as informações da venda abaixo:")
 conn = st.connection("gsheets", type=GSheetsConnection)
 
 # FETCH EXISTING DATA
-existing_data = conn.read(worksheet="DATABASE", usecols=list(range(6)), ttl=7)
+existing_data = conn.read(worksheet="DATABASE", usecols=list(range(15)), ttl=5)
 existing_data = existing_data.dropna(how="all")
 
 # st.divider()
@@ -67,6 +67,8 @@ with st.form(key="crm_form"):
         sell_value = st.number_input(label="Valor", step=0.01, value=None)
         payied = st.number_input(label="Valor à Vista", step=0.01, value=None)
         comission = st.number_input(label="Comissão", step=0.01, value=None)
+
+        os = st.number_input(label="Ordem de Serviço", step=1, value=None)
             
         add_info = st.text_area(label="Notas Adicionais")
 
