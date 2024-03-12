@@ -1,6 +1,7 @@
 import streamlit as st
 from streamlit_gsheets import GSheetsConnection
 import pickle as pkl
+import pandas as pd
 
 from utils.Constants import *
 
