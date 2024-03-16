@@ -24,7 +24,7 @@ with st.form(key="crm_form"):
     with c1:
         st.markdown("#### Dados Pessoais do Cliente:")
         date = st.date_input(label="Data")
-        time = st.time_input(label="Hora")
+        time = st.time_input(label="Hora", step=60)
 
         name = st.text_input(label="Nome")
         nickname = st.text_input(label="Apelido")
