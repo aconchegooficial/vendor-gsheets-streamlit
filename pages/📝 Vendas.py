@@ -54,7 +54,7 @@ with st.form(key="crm_form"):
             if len(cep) < 8:
                 cep_validation = True
             else:
-                cep = cep[:2] + '.' + cep[2:5] + '-' cep[5:]
+                cep = cep[:2] + '.' + cep[2:5] + '-' + cep[5:]
 
     # st.divider()
 
