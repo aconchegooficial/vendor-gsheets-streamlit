@@ -21,6 +21,10 @@ st.markdown("### Adicione as informações da venda abaixo:")
 with st.form(key="crm_form"):
     c1, c2, c3 = st.columns(3, gap="medium")
 
+    # CONTROL COMMANDS
+    phone_validation = False
+    cep_validation = False
+
     with c1:
         st.markdown("#### Dados Pessoais do Cliente:")
         date = st.date_input(label="Data")
