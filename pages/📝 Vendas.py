@@ -29,9 +29,11 @@ with st.form(key="crm_form"):
         name = st.text_input(label="Nome")
         nickname = st.text_input(label="Apelido")
         recurrent = st.selectbox("Recorrência", options=RECURRENT_OPTIONS, index=None)
-        phone = str(st.number_input(label="Telefone", min_value=0, max_value=99999999999, value=None))
+        phone = st.number_input(label="Telefone", min_value=0, max_value=99999999999, value=None)
+        st.text("Ex: 31998765432")
 
         if phone != None:
+            phone = str(phone)
             if len(phone) < 11:
                 phone_validation = True
             else:
@@ -45,7 +47,14 @@ with st.form(key="crm_form"):
 
         # add = st.selectbox("Advertising", options=CITIES, index=None)
         unity = st.selectbox("Unidade", options=CITIES, index=None)
-        cep = st.number_input(label="CEP", min_value=0, max_value=99999999)
+        cep = st.number_input(label="CEP", min_value=0, max_value=99999999, value=None)
+        
+        if cep != None
+            cep = str(cep)
+            if len(cep) < 8:
+                cep_validation = True
+            else:
+                cep = cep[:2] + '.' + cep[2:5] + '-' cep[5:]
 
     # st.divider()
 
@@ -80,6 +89,12 @@ with st.form(key="crm_form"):
             st.stop()
         elif not service_id or not sell_value or not payied or not comission:
             st.warning("Por favor, preencha todas as informações de venda.")
+            st.stop()
+        elif phone_validation:
+            st.warning("Por favor, informe o DDD no campo de telefone.")
+            st.stop()
+        elif cep_validation:
+            st.warning("Por favor, insira um CEP valido.")
             st.stop()
         else:
             vendor_data = pd.DataFrame(
