@@ -49,7 +49,7 @@ with st.form(key="crm_form"):
         unity = st.selectbox("Unidade", options=CITIES, index=None)
         cep = st.number_input(label="CEP", min_value=0, max_value=99999999, value=None)
         
-        if cep != None
+        if cep != None:
             cep = str(cep)
             if len(cep) < 8:
                 cep_validation = True
