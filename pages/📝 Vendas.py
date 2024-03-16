@@ -32,7 +32,7 @@ with st.form(key="crm_form"):
         phone = st.number_input(label="Telefone", min_value=0, max_value=99999999999, value=None)
 
         if phone != None:
-            if len(phone) < 11:
+            if len(str(phone)) < 11:
                 phone_validation = True
             else:
                 phone = '(' + phone[:2] + ') ' + phone[2:]
