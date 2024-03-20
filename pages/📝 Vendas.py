@@ -18,15 +18,15 @@ existing_data = existing_data.dropna(how="all")
 st.title("Cadastro de Vendas 📝")
 st.markdown("### Adicione as informações da venda abaixo:")
 
-main_container = st.container(border=True)
-
-c1, c2, c3 = st.columns(3, gap="medium")
 
 # CONTROL COMMANDS
 phone_validation = False
 cep_validation = False
 
+main_container = st.container(border=True)
+
 with main_container:
+    c1, c2, c3 = st.columns(3, gap="medium")
 
     with c1:
             st.markdown("#### Dados Pessoais do Cliente:")
