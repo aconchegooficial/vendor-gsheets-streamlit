@@ -73,7 +73,7 @@ with vendor_tab:
                     cep = 'Cidade Não Fornecida'
                 else:
                     unities = cep_db[cep_db['CIDADE'] == city]['UNIDADE'].values
-                    cep = st.cep_db[cep_db['CIDADE'] == city]['CEP'].values
+                    cep = cep_db[cep_db['CIDADE'] == city]['CEP'].values
 
                 unity = st.selectbox("Unidade", options=unities, index=None)
 
