@@ -141,6 +141,12 @@ with vendor_tab:
 
                 st.success("Nova Venda Cadastrada com Sucesso!")
 
+    vendor_expander = st.expander("Modificar Dados")
+
+    with vendor_expander:
+        vendor_database_editor = st.data_editor(vendor_db, hide_index=True)
+
+
 with cep_tab:
 
     st.header("Cadastro de Cidades e CEP")
