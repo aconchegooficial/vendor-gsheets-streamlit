@@ -16,11 +16,11 @@ st.set_page_config(layout="wide")
 # ESTABLISHING A GOOGLE SHEETS CONNECTION
 database = Database(worksheets=[
     ("VENDAS", 18),
-    ("CEP", 3)
+    ("CIDADES", 3)
 ])
 
 vendor_db = database.worksheets["VENDAS"].dropna(how="all")
-cep_db = database.worksheets["CEP"].dropna(how="all")
+cep_db = database.worksheets["CIDADES"].dropna(how="all")
 
 # ======================== EXTERNAL IMPORTS ======================== #
 with open("utils/city_to_unity.pkl", "rb") as f: 
@@ -176,6 +176,6 @@ with cep_tab:
                 cep_db = pd.concat([cep_db, cep_data], ignore_index=True)
 
                 # UPDATE DATAFRAME ON GOOGLE SHEETS
-                database.conn.update(worksheet="CEP", data=cep_db)
+                database.conn.update(worksheet="CIDADES", data=cep_db)
 
                 st.success("Nova Cidade Cadastrada com Sucesso!")
