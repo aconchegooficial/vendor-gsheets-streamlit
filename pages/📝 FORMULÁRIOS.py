@@ -66,7 +66,7 @@ with vendor_tab:
         with c2:
                 st.markdown("#### Dados Geográficos do Cliente:")
                 # city = st.selectbox("Cidade", options=CITIES, index=None)
-                city = st.selectbox("Cidade", options=cep_db[['CIDADE']].values, index=None)
+                city = st.selectbox("Cidade", options=cep_db['CIDADE'].values, index=None)
                 if (city == None) or (city not in city_to_unity.keys()):
                     unities = CITIES
                 else:
