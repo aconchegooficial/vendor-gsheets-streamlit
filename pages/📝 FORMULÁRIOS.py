@@ -70,12 +70,13 @@ with vendor_tab:
                 # if (city == None) or (city not in city_to_unity.keys()):
                 if (city == None):
                     unities = cep_db['CIDADE'].values
+                    cep = st.number_input(label="CEP", min_value=0, max_value=99999999, value=None)
                 else:
                     unities = cep_db[cep_db['CIDADE'] == city]['UNIDADE'].values
+                    cep = st.number_input(label="CEP", min_value=0, max_value=99999999, value=cep_db[cep_db['CIDADE'] == city]['CEP'].values[0], disabled=True)
 
                 unity = st.selectbox("Unidade", options=unities, index=None)
-
-                cep = st.number_input(label="CEP", min_value=0, max_value=99999999, value=None)
+                
                 
                 if cep != None:
                     cep = str(cep)
