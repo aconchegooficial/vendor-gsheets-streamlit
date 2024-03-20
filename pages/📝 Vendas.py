@@ -98,20 +98,8 @@ with main_container:
     submit_button = st.button(label="Cadastrar Venda") 
 
 if submit_button:
-        if not date or not time or not name or not phone:      
-            st.warning("Por favor, preencha todos os dados do cliente.")
-            st.stop()
-        elif not city or not unity or not cep:
-            st.warning("Por favor, preencha todos os dados geográficos.")
-            st.stop()
-        elif not service_id or not sell_value or not payied or not comission:
-            st.warning("Por favor, preencha todas as informações de venda.")
-            st.stop()
-        elif phone_validation:
-            st.warning("Por favor, informe o DDD no campo de telefone.")
-            st.stop()
-        elif cep_validation:
-            st.warning("Por favor, insira um CEP valido.")
+        if not date or not time or not name:      
+            st.warning("Por favor, preencha as informações básicas do cadastro!")
             st.stop()
         else:
             vendor_data = pd.DataFrame(
