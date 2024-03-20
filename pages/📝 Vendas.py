@@ -18,14 +18,13 @@ existing_data = existing_data.dropna(how="all")
 st.title("Cadastro de Vendas 📝")
 st.markdown("### Adicione as informações da venda abaixo:")
 
-with st.form(key="crm_form"):
-    c1, c2, c3 = st.columns(3, gap="medium")
+c1, c2, c3 = st.columns(3, gap="medium")
 
-    # CONTROL COMMANDS
-    phone_validation = False
-    cep_validation = False
+# CONTROL COMMANDS
+phone_validation = False
+cep_validation = False
 
-    with c1:
+with c1:
         st.markdown("#### Dados Pessoais do Cliente:")
         date = st.date_input(label="Data")
         time = st.time_input(label="Hora", step=60)
@@ -45,7 +44,7 @@ with st.form(key="crm_form"):
 
     # st.divider()
 
-    with c2:
+with c2:
         st.markdown("#### Dados Geográficos do Cliente:")
         city = st.selectbox("Cidade", options=CITIES, index=None)
 
@@ -62,7 +61,7 @@ with st.form(key="crm_form"):
 
     # st.divider()
 
-    with c3:
+with c3:
         st.markdown("#### Informações da Venda:")
         service_id = st.selectbox("Tipo de Serviço", options=SERVICES, index=None)
         sell_value = st.number_input(label="Valor", step=0.01, value=None)
@@ -80,11 +79,11 @@ with st.form(key="crm_form"):
         with c3_c2:
             whatsapp = st.selectbox("WhatsApp", options=WHATSAPP_OPTIONS, index=None)
 
-    status = st.selectbox("Status", options=STATUS, index=None)
+status = st.selectbox("Status", options=STATUS, index=None)
 
-    submit_button = st.form_submit_button(label="Cadastrar Venda") 
+submit_button = st.button(label="Cadastrar Venda") 
 
-    if submit_button:
+if submit_button:
         if not date or not time or not name or not phone:      
             st.warning("Por favor, preencha todos os dados do cliente.")
             st.stop()
