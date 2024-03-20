@@ -35,13 +35,11 @@ vendor, cep = st.tabs(["Cadastrar Vendas", "Cadastrar Cidades e CEP"])
 
 with vendor:
 
+    st.header("Cadastro de Vendas 📝")
+
     main_container = st.container(border=True)
 
     with main_container:
-        # ======================== DASHBOARD LAYOUT ======================== #
-        # DISPLAY TITLE AND DESCRIPTION
-        st.title("Cadastro de Vendas 📝")
-        st.markdown("### Adicione as informações da venda abaixo:")
 
         c1, c2, c3 = st.columns(3, gap="medium")
 
