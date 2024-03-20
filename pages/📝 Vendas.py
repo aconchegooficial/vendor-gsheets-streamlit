@@ -5,19 +5,25 @@ import pandas as pd
 
 from utils.Constants import *
 
+# =============================================================================================== #
+
 st.set_page_config(layout="wide")
 
+
+# ======================== CONECTIONS ======================== #
 # ESTABLISHING A GOOGLE SHEETS CONNECTION
 conn = st.connection("gsheets", type=GSheetsConnection)
-
-# FETCH EXISTING DATA
 existing_data = conn.read(worksheet="VENDAS", usecols=list(range(18)), ttl=5)
 existing_data = existing_data.dropna(how="all")
 
+# ======================== DASHBOARD LAYOUT ======================== #
 # DISPLAY TITLE AND DESCRIPTION
 st.title("Cadastro de Vendas 📝")
 st.markdown("### Adicione as informações da venda abaixo:")
 
+# ======================== EXTERNAL IMPORTS ======================== #
+with open("utils/city_to_unity.pkl", "rb") as f: 
+    city_to_unity = pkl.load(f)
 
 # CONTROL COMMANDS
 phone_validation = False
