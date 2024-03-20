@@ -19,7 +19,7 @@ database = Database(worksheets=[
     ("CEP", 2)
 ])
 
-vendor_db = database.worksheets["Data"].dropna(how="all")
+vendor_db = database.worksheets["VENDAS"].dropna(how="all")
 
 # ======================== DASHBOARD LAYOUT ======================== #
 # DISPLAY TITLE AND DESCRIPTION
