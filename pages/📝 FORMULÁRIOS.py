@@ -142,31 +142,36 @@ with vendor_tab:
                 st.success("Nova Venda Cadastrada com Sucesso!")
 
 with cep_tab:
+
+    cep_main_container = st.container(border=True)
+
     st.header("Cadastro de Cidades e CEP")
 
-    c1, c2 = st.columns(2, gap="small")
+    with cep_main_container:
 
-    with c1:
-        ceptab_city = st.text_input("Informe a Cidade")
+        c1, c2 = st.columns(2, gap="small")
 
-    with c2:
-        ceptab_cep = st.text_input("Informe o CEP")
+        with c1:
+            ceptab_city = st.text_input("Informe a Cidade")
 
-    ceptab_submit = st.button("Registrar")
+        with c2:
+            ceptab_cep = st.text_input("Informe o CEP")
 
-    if ceptab_submit:
-        if not ceptab_cep or not ceptab_city:
-            st.warning("Por favor, preencha as informações de cadastro da cidade.")
-            st.stop()
-        else:
-            cep_data = pd.DataFrame([{
-                "CIDADE": ceptab_city,
-                "CEP": ceptab_cep
-            }])
+        ceptab_submit = st.button("Registrar")
 
-            cep_db = pd.concat([cep_db, cep_data], ignore_index=True)
+        if ceptab_submit:
+            if not ceptab_cep or not ceptab_city:
+                st.warning("Por favor, preencha as informações de cadastro da cidade.")
+                st.stop()
+            else:
+                cep_data = pd.DataFrame([{
+                    "CIDADE": ceptab_city,
+                    "CEP": ceptab_cep
+                }])
 
-            # UPDATE DATAFRAME ON GOOGLE SHEETS
-            database.conn.update(worksheet="CEP", data=cep_db)
+                cep_db = pd.concat([cep_db, cep_data], ignore_index=True)
 
-            st.success("Nova Cidade Cadastrada com Sucesso!")
+                # UPDATE DATAFRAME ON GOOGLE SHEETS
+                database.conn.update(worksheet="CEP", data=cep_db)
+
+                st.success("Nova Cidade Cadastrada com Sucesso!")
