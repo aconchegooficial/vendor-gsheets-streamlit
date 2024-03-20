@@ -146,6 +146,12 @@ with vendor_tab:
     with vendor_expander:
         vendor_database_editor = st.data_editor(vendor_db, hide_index=True)
 
+        vendor_modity_submit = st.button("Modificar")
+        if vendor_modity_submit:
+            database.conn.update(worksheet="VENDAS", data=vendor_database_editor)
+
+            st.success("Venda(s) Atualizada(s) com Sucesso!")
+
 
 with cep_tab:
 
@@ -190,3 +196,9 @@ with cep_tab:
 
     with cep_expander:
         cep_database_editor = st.data_editor(cep_db, hide_index=True)
+
+        cep_modity_submit = st.button("Modificar")
+        if cep_modity_submit:
+            database.conn.update(worksheet="CIDADES", data=cep_database_editor)
+
+            st.success("Cidade(s) Atualizada(s) com Sucesso!")
