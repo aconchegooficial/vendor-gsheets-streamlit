@@ -31,9 +31,9 @@ phone_validation = False
 cep_validation = False
 
 # ======================== TABS ======================== #
-vendor, cep = st.tabs(["Cadastrar Vendas", "Cadastrar Cidades e CEP"])
+vendor_tab, cep_tab = st.tabs(["Cadastrar Vendas", "Cadastrar Cidades e CEP"])
 
-with vendor:
+with vendor_tab:
 
     st.header("Cadastro de Vendas 📝")
 
@@ -141,7 +141,7 @@ with vendor:
 
                 st.success("Nova Venda Cadastrada com Sucesso!")
 
-with cep:
+with cep_tab:
     st.header("Cadastro de Cidades e CEP")
 
     c1, c2 = st.columns(2, gap="small")
