@@ -18,70 +18,74 @@ existing_data = existing_data.dropna(how="all")
 st.title("Cadastro de Vendas 📝")
 st.markdown("### Adicione as informações da venda abaixo:")
 
+main_container = st.container(border=True)
+
 c1, c2, c3 = st.columns(3, gap="medium")
 
 # CONTROL COMMANDS
 phone_validation = False
 cep_validation = False
 
-with c1:
-        st.markdown("#### Dados Pessoais do Cliente:")
-        date = st.date_input(label="Data")
-        time = st.time_input(label="Hora", step=60)
+with main_container:
 
-        name = st.text_input(label="Nome")
-        nickname = st.text_input(label="Apelido")
-        recurrent = st.selectbox("Recorrência", options=RECURRENT_OPTIONS, index=None)
-        phone = st.number_input(label="Telefone", min_value=0, max_value=99999999999, value=None)
-        st.text("Ex: 31998765432")
+    with c1:
+            st.markdown("#### Dados Pessoais do Cliente:")
+            date = st.date_input(label="Data")
+            time = st.time_input(label="Hora", step=60)
 
-        if phone != None:
-            phone = str(phone)
-            if len(phone) < 11:
-                phone_validation = True
-            else:
-                phone = '(' + phone[:2] + ') ' + phone[2:]
+            name = st.text_input(label="Nome")
+            nickname = st.text_input(label="Apelido")
+            recurrent = st.selectbox("Recorrência", options=RECURRENT_OPTIONS, index=None)
+            phone = st.number_input(label="Telefone", min_value=0, max_value=99999999999, value=None)
+            st.text("Ex: 31998765432")
 
-    # st.divider()
+            if phone != None:
+                phone = str(phone)
+                if len(phone) < 11:
+                    phone_validation = True
+                else:
+                    phone = '(' + phone[:2] + ') ' + phone[2:]
 
-with c2:
-        st.markdown("#### Dados Geográficos do Cliente:")
-        city = st.selectbox("Cidade", options=CITIES, index=None)
+        # st.divider()
 
-        # add = st.selectbox("Advertising", options=CITIES, index=None)
-        unity = st.selectbox("Unidade", options=CITIES, index=None)
-        cep = st.number_input(label="CEP", min_value=0, max_value=99999999, value=None)
-        
-        if cep != None:
-            cep = str(cep)
-            if len(cep) < 8:
-                cep_validation = True
-            else:
-                cep = cep[:2] + '.' + cep[2:5] + '-' + cep[5:]
+    with c2:
+            st.markdown("#### Dados Geográficos do Cliente:")
+            city = st.selectbox("Cidade", options=CITIES, index=None)
 
-    # st.divider()
-
-with c3:
-        st.markdown("#### Informações da Venda:")
-        service_id = st.selectbox("Tipo de Serviço", options=SERVICES, index=None)
-        sell_value = st.number_input(label="Valor", step=0.01, value=None)
-        payied = st.number_input(label="Valor à Vista", step=0.01, value=None)
-        comission = st.number_input(label="Comissão", step=0.01, value=None)
-
-        os = st.number_input(label="Ordem de Serviço", step=1, value=None)
+            # add = st.selectbox("Advertising", options=CITIES, index=None)
+            unity = st.selectbox("Unidade", options=CITIES, index=None)
+            cep = st.number_input(label="CEP", min_value=0, max_value=99999999, value=None)
             
-        add_info = st.text_area(label="Notas Adicionais")
+            if cep != None:
+                cep = str(cep)
+                if len(cep) < 8:
+                    cep_validation = True
+                else:
+                    cep = cep[:2] + '.' + cep[2:5] + '-' + cep[5:]
 
-        c3_c1, c3_c2 = st.columns(2, gap="small")
+        # st.divider()
 
-        with c3_c1:
-            perfil = st.selectbox("Perfil", options=PERFIL_OPTIONS, index=None)
-        with c3_c2:
-            whatsapp = st.selectbox("WhatsApp", options=WHATSAPP_OPTIONS, index=None)
+    with c3:
+            st.markdown("#### Informações da Venda:")
+            service_id = st.selectbox("Tipo de Serviço", options=SERVICES, index=None)
+            sell_value = st.number_input(label="Valor", step=0.01, value=None)
+            payied = st.number_input(label="Valor à Vista", step=0.01, value=None)
+            comission = st.number_input(label="Comissão", step=0.01, value=None)
 
-status = st.selectbox("Status", options=STATUS, index=None)
+            os = st.number_input(label="Ordem de Serviço", step=1, value=None)
+                
+            add_info = st.text_area(label="Notas Adicionais")
 
-submit_button = st.button(label="Cadastrar Venda") 
+            c3_c1, c3_c2 = st.columns(2, gap="small")
+
+            with c3_c1:
+                perfil = st.selectbox("Perfil", options=PERFIL_OPTIONS, index=None)
+            with c3_c2:
+                whatsapp = st.selectbox("WhatsApp", options=WHATSAPP_OPTIONS, index=None)
+
+    status = st.selectbox("Status", options=STATUS, index=None)
+
+    submit_button = st.button(label="Cadastrar Venda") 
 
 if submit_button:
         if not date or not time or not name or not phone:      
