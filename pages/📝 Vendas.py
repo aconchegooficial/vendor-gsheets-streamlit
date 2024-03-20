@@ -3,6 +3,8 @@ from streamlit_gsheets import GSheetsConnection
 import pickle as pkl
 import pandas as pd
 
+import consulta_correios
+
 from utils.Constants import *
 
 # =============================================================================================== #
@@ -43,7 +45,7 @@ with main_container:
             nickname = st.text_input(label="Apelido")
             recurrent = st.selectbox("Recorrência", options=RECURRENT_OPTIONS, index=None)
             phone = st.number_input(label="Telefone", min_value=0, max_value=99999999999, value=None)
-            st.text("Ex: 31998765432")
+            st.text("Insira o DDD e o número de telefone com o nove (9) adicional. Ex: 31998765432")
 
             if phone != None:
                 phone = str(phone)
