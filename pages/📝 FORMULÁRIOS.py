@@ -143,9 +143,9 @@ with vendor_tab:
 
 with cep_tab:
 
-    cep_main_container = st.container(border=True)
-
     st.header("Cadastro de Cidades e CEP")
+
+    cep_main_container = st.container(border=True)
 
     with cep_main_container:
 
