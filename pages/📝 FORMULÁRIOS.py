@@ -185,7 +185,7 @@ with cep_tab:
                     "CEP": ceptab_cep
                 }])
 
-                if cep_db[cep_data].shape[0] > 0:
+                if cep_db[(cep_db.CIDADE == cep_data.CIDADE) & (cep_db.UNIDADE == cep_data.UNIDADE) & (cep_db.CEP == cep_data.CEP)].shape[0] > 0:
                     st.warning("Esse conjunto de dados já existe na tabela.")
                     st.stop()
 
