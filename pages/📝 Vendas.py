@@ -57,9 +57,11 @@ with main_container:
     with c2:
             st.markdown("#### Dados Geográficos do Cliente:")
             city = st.selectbox("Cidade", options=CITIES, index=None)
+            if city in city_to_unity.keys():
+                UNITIES = city_to_unity[city] 
 
-            # add = st.selectbox("Advertising", options=CITIES, index=None)
-            unity = st.selectbox("Unidade", options=CITIES, index=None)
+            unity = st.selectbox("Unidade", options=UNITIES, index=None)
+
             cep = st.number_input(label="CEP", min_value=0, max_value=99999999, value=None)
             
             if cep != None:
