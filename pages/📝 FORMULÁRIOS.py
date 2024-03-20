@@ -16,7 +16,7 @@ st.set_page_config(layout="wide")
 # ESTABLISHING A GOOGLE SHEETS CONNECTION
 database = Database(worksheets=[
     ("VENDAS", 18),
-    ("CEP", 2)
+    ("CEP", 3)
 ])
 
 vendor_db = database.worksheets["VENDAS"].dropna(how="all")
@@ -149,23 +149,27 @@ with cep_tab:
 
     with cep_main_container:
 
-        c1, c2 = st.columns(2, gap="small")
+        c1, c2, c3 = st.columns(3, gap="small")
 
         with c1:
             ceptab_city = st.text_input("Informe a Cidade")
 
         with c2:
+            ceptab_unity = st.text_input("Informe a Unidade")
+
+        with c3:
             ceptab_cep = st.text_input("Informe o CEP")
 
         ceptab_submit = st.button("Registrar")
 
         if ceptab_submit:
-            if not ceptab_cep or not ceptab_city:
+            if not ceptab_cep or not ceptab_unity or not ceptab_city:
                 st.warning("Por favor, preencha as informações de cadastro da cidade.")
                 st.stop()
             else:
                 cep_data = pd.DataFrame([{
                     "CIDADE": ceptab_city,
+                    "UNIDADE": ceptab_unity,
                     "CEP": ceptab_cep
                 }])
 
