@@ -3,7 +3,7 @@ from streamlit_gsheets import GSheetsConnection
 import pickle as pkl
 import pandas as pd
 
-import consulta_correios
+from services.Database import Database
 
 from utils.Constants import *
 
@@ -14,9 +14,12 @@ st.set_page_config(layout="wide")
 
 # ======================== CONECTIONS ======================== #
 # ESTABLISHING A GOOGLE SHEETS CONNECTION
-conn = st.connection("gsheets", type=GSheetsConnection)
-existing_data = conn.read(worksheet="VENDAS", usecols=list(range(18)), ttl=5)
-existing_data = existing_data.dropna(how="all")
+database = Database(worksheets=[
+    ("VENDAS", 18),
+    ("CEP", 2)
+])
+
+vendor_db = database.worksheets["Data"].dropna(how="all")
 
 # ======================== DASHBOARD LAYOUT ======================== #
 # DISPLAY TITLE AND DESCRIPTION
@@ -127,9 +130,9 @@ if submit_button:
                 }]
             )
 
-            updated_df = pd.concat([existing_data, vendor_data], ignore_index=True)
+            updated_df = pd.concat([vendor_db, vendor_data], ignore_index=True)
 
             # UPDATE DATAFRAME ON GOOGLE SHEETS
-            conn.update(worksheet="VENDAS", data=updated_df)
+            database.conn.update(worksheet="VENDAS", data=updated_df)
 
             st.success("Nova Venda Cadastrada com Sucesso!")

@@ -2,12 +2,15 @@ import streamlit as st
 from streamlit_gsheets import GSheetsConnection
 
 
-def connection():
-    # ESTABLISHING A GOOGLE SHEETS CONNECTION
-    conn = st.connection("gsheets", type=GSheetsConnection)
+class Database:
+    def __init__(self, worksheets: list = []):
+        
+        self.conn = st.connection("gsheets", type=GSheetsConnection)
+        self.worksheets = {}
 
-    # FETCH EXISTING DATA
-    existing_data = conn.read(worksheet="VENDAS", usecols=list(range(12)), ttl=5)
-    existing_data = existing_data.dropna(how="all")
+        for info in worksheets:
+            self._conn(info[0], info[1])
 
-    return conn, existing_data
+    
+    def _conn(self, worksheet_name, cols):
+        self.worksheets[worksheet_name] = self.conn.read(worksheet=worksheet_name, usecols=list(range(cols)), ttl=5)
