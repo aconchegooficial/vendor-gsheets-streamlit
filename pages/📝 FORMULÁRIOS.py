@@ -31,7 +31,7 @@ phone_validation = False
 cep_validation = False
 
 # ======================== TABS ======================== #
-vendor_tab, cep_tab = st.tabs(["Cadastrar Vendas", "Cadastrar Cidades e CEP"])
+vendor_tab, cep_tab = st.tabs(["Cadastrar Vendas", "Cadastrar Cidades, Unidades e CEP"])
 
 with vendor_tab:
 
