@@ -185,6 +185,10 @@ with cep_tab:
                     "CEP": ceptab_cep
                 }])
 
+                if cep_db[cep_data].shape[0] > 0:
+                    st.warning("Esse conjunto de dados já existe na tabela.")
+                    st.stop()
+
                 cep_db = pd.concat([cep_db, cep_data], ignore_index=True)
 
                 # UPDATE DATAFRAME ON GOOGLE SHEETS
