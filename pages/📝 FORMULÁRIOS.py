@@ -76,6 +76,8 @@ with vendor_tab:
                     cep = st.cep_db[cep_db['CIDADE'] == city]['CEP'].values[0]
 
                 unity = st.selectbox("Unidade", options=unities, index=None)
+
+                st.text(f"CEP ({city}): {cep}")
                 
                 if cep != None:
                     cep = str(cep)
