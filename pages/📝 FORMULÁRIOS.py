@@ -179,3 +179,8 @@ with cep_tab:
                 database.conn.update(worksheet="CIDADES", data=cep_db)
 
                 st.success("Nova Cidade Cadastrada com Sucesso!")
+
+    cep_expander = st.expander("Dados Modificáveis")
+
+    with cep_expander:
+        cep_database_editor = st.data_editor(cep_db, hide_index=True)
