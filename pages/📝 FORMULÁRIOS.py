@@ -7,6 +7,8 @@ from services.Database import Database
 
 from utils.Constants import *
 
+# Teste
+
 # =============================================================================================== #
 
 st.set_page_config(layout="wide")
